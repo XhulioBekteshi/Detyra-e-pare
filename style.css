@@ -1,0 +1,84 @@
+.main-contanier {
+  background-color: #f2f7f7;
+  display: flex;
+  margin: 25px;
+  gap: 30px;
+  box-shadow: -10px 10px 10px 10px #333;
+  border-radius: 4px ;
+}
+.left-contanier,
+.right-contanier {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.profile,
+.skills,
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.profile,
+.skills {
+  flex: 2;
+}
+.about {
+  flex: 1;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  
+}
+
+.photo-contanier {
+  background: url("https://picsum.photos/id/237/300/300");
+  height: 250px;
+  width: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.info{
+    padding: 10px;
+    display: flex;
+
+}
+.info-icon {
+    flex:1;
+}
+.info-data { 
+    flex: 8;
+} 
+h2{
+    padding: 10px;
+}
+.contact-info-contanier,.extra-skill-contanier { 
+    flex: 1;
+}
+.experience-contanier,.education-contanier {
+    flex: 4;
+}
+.extra-skill-contanier { margin-top: 20px;
+    display: flex;
+    
+
+}
+.extra-skill {
+    flex:1;
+}
+.skills {
+    display: flex;
+}
+.row{
+    display: flex;
+    height: 33%;
+ 
+    
+}
+.column {
+    flex:1;
+}
