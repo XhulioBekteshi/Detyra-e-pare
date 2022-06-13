@@ -4,7 +4,7 @@
   margin: 25px;
   gap: 30px;
   box-shadow: -10px 10px 10px 10px #333;
-  border-radius: 4px ;
+  border-radius: 4px;
 }
 .left-contanier,
 .right-contanier {
@@ -30,7 +30,6 @@
 h1 {
   font-size: 40px;
   font-weight: 900;
-  
 }
 
 .photo-contanier {
@@ -42,40 +41,48 @@ h1 {
   display: inline-block;
 }
 
-.info{
-    padding: 10px;
-    display: flex;
-
+.info {
+  padding: 10px;
+  display: flex;
 }
 .info-icon {
-    flex:1;
+  flex: 1;
 }
-.info-data { 
-    flex: 8;
-} 
-h2{
-    padding: 10px;
+.info-data {
+  flex: 8;
 }
-.contact-info-contanier,.extra-skill-contanier { 
-    flex: 1;
+h2 {
+  padding: 10px;
 }
-.experience-contanier,.education-contanier {
-    flex: 4;
+.contact-info-contanier,
+.extra-skill-contanier {
+  flex: 1;
 }
-.extra-skill-contanier { margin-top: 20px;
-    display: flex;
+.experience-contanier,
+.education-contanier {
+  flex: 4;
+}
+.extra-skill-contanier {
+  margin-top: 20px;
+  display: flex;
 }
 .extra-skill {
-    flex:1;
+  flex: 1;
 }
 .skills {
-    display: flex;
+  display: flex;
 }
-.row{
-    display: flex;
-    height: 33%;
- 
+.row {
+  display: flex;
+  height: 33%;
 }
 .column {
-    flex:1;
+  flex: 1;
+}
+.skills-photo { 
+  
+}
+.skills-photo { border-radius: 4px;
+  height: 50px;
+  width: 50px;
 }
